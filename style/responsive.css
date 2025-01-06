@@ -1,0 +1,89 @@
+@media screen and (max-width: 760px) {
+  main .container #section-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+  main #meal-list h2 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 610px) {
+  main .container #menu-title {
+    font-size: 45px;
+    margin: auto !important;
+    text-align: center;
+  }
+  main .container #section-buttons {
+    display: none;
+  }
+  main .container #search-bar {
+    margin-top: 50px;
+  }
+  main #meal-list h2 {
+    text-align: center;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 800px) {
+  main #meal-list h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 670px) {
+  main #meal-list {
+    width: 100%;
+  }
+  main .container #search-bar {
+    width: 100%;
+  }
+  main #meal-list li .meal-price {
+    font-size: 17px;
+  }
+  main #meal-list li .meal-name {
+    font-size: 18px;
+  }
+  main #show-full-menu {
+    position: relative;
+    left: 1px;
+    top: 25px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .container #menu-title {
+    font-size: 45px;
+    margin: auto !important;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 570px) {
+  main .container #section-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+@media screen and (max-width: 650px) {
+  main .container .main_head_text {
+    letter-spacing: 30px;
+  }
+}
+@media screen and (max-width: 440px) {
+  main .container .main_head_text {
+    letter-spacing: 15px;
+  }
+}
+@media screen and (max-width: 340px) {
+  main .container .main_head_text {
+    letter-spacing: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .container #section-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
